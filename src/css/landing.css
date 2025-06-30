@@ -1,0 +1,38 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - var(--navbar-height));
+  background: url('../img/landing.jpg') no-repeat center center;
+  background-size: cover;
+  filter: opacity(0.9) brightness(0.8);
+}
+
+.landing h1 {
+  color: var(--color-white);
+  font-size: 3.5rem;
+}
+
+.landing h2 {
+  color: var(--color-white);
+  font-size: 1.5rem;
+}
+
+.landing .welcome {
+  margin: 0;
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.landing-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

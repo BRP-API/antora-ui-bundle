@@ -237,7 +237,27 @@ body {
     display: none;
   }
 
-  .navbar,
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    flex: 0 0 auto;
+  }
+
+  #topbar-nav {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-spacer {
+    flex: 0 0 auto;
+    width: calc(208px + 236px); /* width of the logo and search input */
+  }
+
   .navbar-menu,
   .navbar-end {
     display: flex;
