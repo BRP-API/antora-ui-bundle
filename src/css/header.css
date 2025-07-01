@@ -255,7 +255,12 @@ body {
 
   .navbar-spacer {
     flex: 0 0 auto;
-    width: calc(208px + 236px); /* width of the logo and search input */
+    width: 226px; /* width of the brand element */
+  }
+
+  .navbar-spacer-with-search {
+    flex: 0 0 auto;
+    width: auto; /* width of the brand element and search input */
   }
 
   .navbar-menu,
