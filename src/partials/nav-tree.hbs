@@ -1,7 +1,9 @@
 {{#if navigation.length}}
 <ul class="nav-list">
   {{#each navigation}}
-  <li class="nav-item 
+  <li 
+  style="{{#if (eq ./content 'REFERENCE')}}padding-top: 0.5rem; padding-bottom: 0.5rem;{{/if}}"
+  class="nav-item 
   {{#if (or (eq ./content 'Personen') (eq ./content 'Bewoning') (eq ./content 'Verblijfplaatshistorie'))}}is-active{{/if}}
   {{#if (eq ./url @root.page.url)}} is-current-page{{/if}}" 
   data-depth="{{or ../level 0}}">
