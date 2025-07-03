@@ -232,6 +232,12 @@ body {
   }
 }
 
+@media screen and (max-width: 1023.5px) {
+  .navbar-spacer-with-search {
+    margin-left: 75px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .navbar-burger {
     display: none;
@@ -260,7 +266,6 @@ body {
 
   .navbar-spacer-with-search {
     flex: 0 0 auto;
-    width: auto; /* width of the brand element and search input */
   }
 
   .navbar-menu,
