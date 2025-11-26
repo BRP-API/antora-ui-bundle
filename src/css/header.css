@@ -195,7 +195,7 @@ body {
   white-space: nowrap;
 }
 
-a.navbar-item:hover {
+.navbar-dropdown > a.navbar-item:hover {
   background: lightgray;
 }
 
